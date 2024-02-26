@@ -35,17 +35,20 @@
   </head>
   <body>
     <header class="header" id="header">
-      <img src="./images/logo.svg" alt="Sunnyside agency logo" class="logo" />
-      <nav class="navigation">
-        <ul class="nav-list" id="myLinks">
-          <li><a href="#about" class="nav-link">About</a></li>
-          <li><a href="#services" class="nav-link">Services</a></li>
-          <li><a href="#projects" class="nav-link">Projects</a></li>
-          <li>
-            <a href="#contact" class="nav-link active">Contact</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="container">
+        <img src="./images/logo.svg" alt="Sunnyside agency logo" class="logo" />
+        <nav class="navigation">
+          <ul class="nav-list" id="myLinks">
+            <span class="triangle"></span>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#services" class="nav-link">Services</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li>
+              <a href="#contact" class="nav-link active">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
       <a href="javascript:void(0);" class="hamburger" id="menuIcon"
         ><svg width="24" height="18" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -55,16 +58,14 @@
           />
         </svg>
       </a>
+      <div class="hero-content" id="heroContent">
+        <h1 class="hero-title">We are creatives</h1>
+        <a href="#about" class="hero-btn">
+          <img src="./images/icon-arrow-down.svg" alt="Arrow down icon" />
+        </a>
+      </div>
     </header>
     <main>
-      <section class="hero">
-        <div class="hero-content" id="heroContent">
-          <h1 class="hero-title">We are creatives</h1>
-          <a href="#about" class="hero-btn">
-            <img src="./images/icon-arrow-down.svg" alt="Arrow down icon" />
-          </a>
-        </div>
-      </section>
       <section id="about" class="about-section">
         <div class="about-box">
           <div class="about-content">
