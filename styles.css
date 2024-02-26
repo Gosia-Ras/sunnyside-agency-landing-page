@@ -90,6 +90,7 @@ header .hero-content {
   position: relative;
   color: var(--neutral-white);
   margin: 0 auto;
+  padding-bottom: 20rem;
 }
 
 header .hero-content .hero-btn {
@@ -224,7 +225,7 @@ section.services-section {
   grid-template-columns: repeat(2, 1fr);
   position: relative;
   top: -12px;
-  height: 60vh;
+  height: 65vh;
 }
 
 section.services-section .service {
@@ -254,7 +255,7 @@ section.services-section .service {
 /* Testimonials Section */
 
 section.testimonials-section {
-  padding: 100px;
+  padding: 200px 100px;
 }
 
 section.testimonials-section .testimonials-title {
