@@ -379,10 +379,8 @@ footer ul li:hover a svg path {
     align-items: baseline;
   }
 
-  header .logo {
-    height: 25px;
-    width: auto;
-    max-width: 120px;
+  header .container .logo {
+    padding: 0;
   }
 
   header .navigation {
