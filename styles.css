@@ -63,9 +63,9 @@ header {
   overflow: hidden;
   background-image: url(./images/desktop/image-header.jpg);
   background-repeat: no-repeat;
-  background-position: 100% 100%;
+  background-position: 50% 100%;
   background-size: cover;
-  height: 60vh;
+  height: 80vh;
 }
 
 /* Navigation */
