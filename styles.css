@@ -61,6 +61,8 @@ header {
   justify-content: space-between;
   width: 100%;
   overflow: hidden;
+  background: no-repeat center/100% url(./images/desktop/image-header.jpg);
+  height: 50vh;
 }
 
 /* Navigation */
@@ -73,6 +75,24 @@ header .container {
   top: 0;
   width: 100%;
 }
+
+header .hero-content {
+  text-align: center;
+  position: relative;
+  color: var(--neutral-white);
+  margin: 0 auto;
+}
+
+header .hero-content .hero-btn {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: transparent;
+  text-align: center;
+  cursor: pointer;
+}
+
 .nav-link {
   text-decoration: none;
   color: var(--neutral-white);
@@ -112,30 +132,6 @@ header .container {
 .active {
   background-color: var(--neutral-white);
   color: var(--neutral-desert-storm);
-}
-
-/* Hero Section */
-
-header {
-  background: no-repeat center/100% url(./images/desktop/image-header.jpg);
-  height: 50vh;
-}
-
-header .hero-content {
-  text-align: center;
-  position: relative;
-  color: var(--neutral-white);
-  margin: 0 auto;
-}
-
-header .hero-content .hero-btn {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 10px 25px;
-  background-color: transparent;
-  text-align: center;
-  cursor: pointer;
 }
 
 /* About Section */
