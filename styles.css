@@ -225,8 +225,7 @@ section.services-section {
   grid-template-columns: repeat(2, 1fr);
   position: relative;
   top: -12px;
-  height: 50vh;
-  max-height: 700px;
+  height: 60vh;
 }
 
 section.services-section .service {
