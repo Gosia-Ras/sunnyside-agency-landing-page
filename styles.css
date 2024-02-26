@@ -65,7 +65,7 @@ header {
   background-repeat: no-repeat;
   background-position: 50% 100%;
   background-size: cover;
-  height: 80vh;
+  height: 90vh;
 }
 
 /* Navigation */
@@ -74,9 +74,15 @@ header .container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   position: absolute;
   top: 0;
   width: 100%;
+  padding: 50px 0;
+}
+
+header .container .logo {
+  padding: 0 50px;
 }
 
 header .hero-content {
@@ -96,43 +102,36 @@ header .hero-content .hero-btn {
   cursor: pointer;
 }
 
-.nav-link {
+header .nav-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding-inline-start: 0;
+  gap: 20px;
+  padding: 0 50px;
+  transition: height 0.3s ease-in-out;
+}
+
+header .nav-link {
   text-decoration: none;
   color: var(--neutral-white);
   padding: 10px 15px;
   border-radius: 20px;
 }
 
-.nav-link:hover {
+header .nav-link:hover {
   background-color: hsla(0, 0%, 100%, 0.3);
   color: var(--neutral-white);
 }
 
-.nav-list {
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  padding-inline-start: 0;
-  gap: 20px;
-  padding: 30px;
-
-  transition: height 0.3s ease-in-out;
-}
-
-.hamburger {
+header .hamburger {
   position: absolute;
   top: 50px;
   right: 30px;
   display: none;
 }
 
-.logo {
-  height: 40px;
-  width: auto;
-  padding: 30px;
-}
-
-.active {
+header .active {
   background-color: var(--neutral-white);
   color: var(--neutral-desert-storm);
 }
@@ -376,6 +375,8 @@ footer ul li:hover a svg path {
 
   header .container {
     flex-direction: column;
+    padding: 30px 0;
+    align-items: baseline;
   }
 
   header .logo {
@@ -386,6 +387,7 @@ footer ul li:hover a svg path {
 
   header .navigation {
     margin-top: 50px;
+    margin-left: 2rem;
   }
 
   header .navigation .triangle {
