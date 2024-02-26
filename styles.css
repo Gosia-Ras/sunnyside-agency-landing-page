@@ -61,8 +61,11 @@ header {
   justify-content: space-between;
   width: 100%;
   overflow: hidden;
-  background: no-repeat center/100% url(./images/desktop/image-header.jpg);
-  height: 50vh;
+  background-image: url(./images/desktop/image-header.jpg);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: cover;
+  height: 60vh;
 }
 
 /* Navigation */
@@ -350,16 +353,14 @@ footer ul li:hover a {
   color: var(--neutral-white);
 }
 
+footer ul li a svg path {
+  transition: fill 300ms ease-in-out;
+}
 footer ul li:hover a svg path {
   fill: var(--neutral-white);
 }
 
 /* Media Query */
-@media (max-width: 1199px) {
-  header {
-    height: 35vh;
-  }
-}
 
 @media (max-width: 992px) {
   body {
